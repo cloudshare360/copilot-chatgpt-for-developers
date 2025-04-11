@@ -1,0 +1,17 @@
+{
+    "name": "Copilot-ChatGPT-GEN-AI",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // Your base image
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.tabSize": 2,
+                "editor.insertSpaces": true,
+                "editor.detectIndentation": false
+            },
+            "extensions": [
+                "mushan.vscode-paste-image",
+                "formulahendry.code-runner"
+            ]
+        }
+    }
+}
